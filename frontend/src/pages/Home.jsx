@@ -26,7 +26,9 @@ const Home = () => {
           </div>
           
           <div className="hero-image">
-            <div className="image-placeholder"></div>
+            <div className="image-placeholder">
+              <img src="https://st.depositphotos.com/1909225/3529/i/450/depositphotos_35299935-stock-photo-passage-to-mysterious-castle.jpg" alt="mystery" />
+            </div>
           </div>
         </div>
         
