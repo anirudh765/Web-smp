@@ -11,7 +11,7 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (_req, res) => res.send('Welcome to the adventure game API'));
+app.get('/', (_req, res) => res.send('Welcome to the adventure game'));
 
 app.get('/storylines', async (_req, res) => {
   const keys = await Story.distinct('storyKey');
